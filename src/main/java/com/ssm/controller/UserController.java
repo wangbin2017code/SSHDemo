@@ -4,7 +4,7 @@ import com.ssm.model.User;
 import com.ssm.service.UserService;
 import com.ssm.utils.JxlCommonUtil;
 import com.ssm.utils.PoiCommonUtil;
-import org.apache.log4j.Logger;
+import common.Logger;
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 /**
- * Created by Administrator on 2017/9/23 0023.
+ * Created by wangbin on 2017/9/23 0023.
  */
 @Component
 public interface UserDao {

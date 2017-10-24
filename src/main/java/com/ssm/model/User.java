@@ -3,7 +3,7 @@ package com.ssm.model;
 import java.util.Date;
 
 /**
- * Created by Administrator on 2017/9/23 0023.
+ * Created by wangbin on 2017/9/23 0023.
  */
 public class User {
 

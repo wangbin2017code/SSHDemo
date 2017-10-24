@@ -27,7 +27,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by Wangbin on 2017/9/23 0023.
+ * Created by wangbin on 2017/9/23 0023.
  */
 @Controller
 @RequestMapping("/user")

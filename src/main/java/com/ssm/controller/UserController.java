@@ -2,6 +2,7 @@ package com.ssm.controller;
 
 import com.ssm.model.User;
 import com.ssm.service.UserService;
+import com.ssm.utils.FileUtils;
 import com.ssm.utils.JxlCommonUtil;
 import com.ssm.utils.PoiCommonUtil;
 import common.Logger;
@@ -221,6 +222,15 @@ public class UserController {
                 }
             }
         } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @RequestMapping("/upLoadCompressImg")
+    public void upLoadImgAndCompress() {
+        try {
+            FileUtils.handleImgFile("e://img//test.jpg");
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }

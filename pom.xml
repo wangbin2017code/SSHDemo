@@ -199,6 +199,13 @@
       <artifactId>poi</artifactId>
       <version>3.14</version>
     </dependency>
+
+    <!-- google使用的开源的工具类,图片压缩，旋转，裁切，加水印等等-->
+    <dependency>
+      <groupId>net.coobird</groupId>
+      <artifactId>thumbnailator</artifactId>
+      <version>0.4.8</version>
+    </dependency>
   </dependencies>
   <build>
     <finalName>MVNDemo</finalName>

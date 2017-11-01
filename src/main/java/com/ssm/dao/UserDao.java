@@ -17,4 +17,7 @@ public interface UserDao {
     User selectUserByPhoneOrEmail(@Param("emailOrPhone") String emailOrPhone, @Param("state") Short state);
 
     List<User> selectAllUser();
+
+    //批量删除用户
+    int batchDeleteUser(List<User> userList);
 }

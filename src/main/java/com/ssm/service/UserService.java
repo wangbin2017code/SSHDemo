@@ -14,4 +14,6 @@ public interface UserService {
     User getUserByPhoneOrEmail(@Param("emailOrPhone") String emailOrPhone, @Param("state") Short state);
 
     User getUserById(Long userId);
+
+    int batchDeleteUser();
 }

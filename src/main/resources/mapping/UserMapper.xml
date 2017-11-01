@@ -29,4 +29,16 @@
         SELECT * FROM t_user
     </select>
 
+    <delete id="batchDeleteUser" parameterType="java.util.List">
+        DELETE FROM t_user
+        WHERE
+        <foreach collection="list" item="user" index="index" separator="or">
+            (
+            user_name =#{user.userName}
+            AND user_phone = #{user.userPhone}
+            AND user_email = #{user.userEmail}
+            )
+        </foreach>
+    </delete>
+
 </mapper>

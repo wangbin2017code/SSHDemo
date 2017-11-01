@@ -17,6 +17,16 @@ public class User {
     private Date modifyTime;
     private Short isDelete;
 
+    public User() {
+
+    }
+
+    public User(String userName, String userPhone, String userEmail) {
+        this.userName = userName;
+        this.userPhone = userPhone;
+        this.userEmail = userEmail;
+    }
+
     public Long getId() {
         return id;
     }

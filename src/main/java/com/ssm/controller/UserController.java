@@ -234,4 +234,10 @@ public class UserController {
             e.printStackTrace();
         }
     }
+
+    //批量删除用户
+    @RequestMapping("/batchDelete")
+    public void batchDelete() {
+        userService.batchDeleteUser();
+    }
 }
